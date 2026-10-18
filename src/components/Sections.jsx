@@ -120,7 +120,7 @@ export function Films() {
               </div>
               <div className="info">
                 <h3>{f.couple}</h3>
-                <span className="label sub">{f.venue}</span>
+                {f.venue && <span className="label sub">{f.venue}</span>}
               </div>
               <span className="label sub">{f.type}</span>
             </button>
@@ -144,7 +144,7 @@ export function Films() {
                 </div>
               )}
             </div>
-            <p className="cap label">{active.couple} · {active.venue} · {active.type}</p>
+            <p className="cap label">{[active.couple, active.venue, active.type].filter(Boolean).join(' · ')}</p>
           </div>
         </div>
       )}

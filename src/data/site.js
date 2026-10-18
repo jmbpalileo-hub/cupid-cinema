@@ -29,8 +29,8 @@ export const hero = {
   line1: 'Cupid',
   line2: 'Cinematic',
   sub: 'for couples who would rather feel it than pose for it',
-  heroVideo: null, // e.g. '/media/hero-loop.mp4'
-  heroPoster: null, // e.g. '/media/hero-poster.jpg'
+  heroVideo: '/media/hero-loop.mp4', // 12s cut from Wedding Reel (2019)
+  heroPoster: '/media/hero-poster.jpg',
   cta: 'Check your date',
 }
 
@@ -46,13 +46,13 @@ export const intro = {
 }
 
 export const films = [
-  // TODO: replace with real titles, venues, embeds and stills
-  { couple: 'Amelia & Josh', venue: 'Maleny', type: 'Highlight Film', embed: '', image: null, length: '5:12' },
-  { couple: 'Priya & Daniel', venue: 'Brisbane City Hall', type: 'Feature Film', embed: '', image: null, length: '14:40' },
-  { couple: 'Sofia & Marco', venue: 'Gold Coast Hinterland', type: 'Highlight Film', embed: '', image: null, length: '4:38' },
-  { couple: 'Hana & Reuben', venue: 'Noosa Elopement', type: 'Elopement', embed: '', image: null, length: '3:05' },
-  { couple: 'Clare & Tom', venue: 'Toowoomba', type: 'Highlight Film', embed: '', image: null, length: '5:47' },
-  { couple: 'Bea & Luis', venue: 'Stradbroke Island', type: 'Feature Film', embed: '', image: null, length: '12:20' },
+  // From the Weddings folder on Drive. TODO: add venue, length, a still, and a Vimeo/YouTube `embed` for each.
+  { couple: 'Sohee & Lino', venue: '', type: 'Wedding Film', embed: '', image: null, length: '' },
+  { couple: 'Gaselle & Paolo', venue: '', type: 'Wedding Film', embed: '', image: null, length: '' },
+  { couple: 'Stef & Gars', venue: '', type: 'Wedding Film', embed: '', image: null, length: '' },
+  { couple: 'Sara & Ladd', venue: '', type: 'Wedding Film', embed: '', image: null, length: '' },
+  { couple: 'Mikee & Aldwin', venue: '', type: 'Wedding Film', embed: '', image: null, length: '' },
+  { couple: 'Rowena & James', venue: '', type: 'Trailer', embed: '', image: null, length: '' },
 ]
 
 export const approach = [

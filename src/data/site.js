@@ -46,13 +46,14 @@ export const intro = {
 }
 
 export const films = [
-  // From the Weddings folder on Drive. TODO: add venue, length, a still, and a Vimeo/YouTube `embed` for each.
-  { couple: 'Sohee & Lino', venue: '', type: 'Wedding Film', embed: '', image: null, length: '' },
-  { couple: 'Gaselle & Paolo', venue: '', type: 'Wedding Film', embed: '', image: null, length: '' },
-  { couple: 'Stef & Gars', venue: '', type: 'Wedding Film', embed: '', image: null, length: '' },
-  { couple: 'Sara & Ladd', venue: '', type: 'Wedding Film', embed: '', image: null, length: '' },
-  { couple: 'Mikee & Aldwin', venue: '', type: 'Wedding Film', embed: '', image: null, length: '' },
-  { couple: 'Rowena & James', venue: '', type: 'Trailer', embed: '', image: null, length: '' },
+  // From the Weddings folder on Drive. Stills are frames pulled from each film.
+  // TODO: add venues, a Vimeo/YouTube `embed` for each, and stills for Sohee & Lino and Sara & Ladd.
+  { couple: 'Gaselle & Paolo', venue: '', type: 'Cinematic Film', embed: '', image: '/media/films/gaselle-paolo.jpg', length: '10:17' },
+  { couple: 'Stef & Gars', venue: '', type: 'Pre-Wedding Teaser', embed: '', image: '/media/films/stef-gars.jpg', length: '1:46' },
+  { couple: 'Sohee & Lino', venue: '', type: 'Wedding Film', embed: '', image: null, length: '5:45' },
+  { couple: 'Sara & Ladd', venue: '', type: 'Highlight Film', embed: '', image: null, length: '10:03' },
+  { couple: 'Mikee & Aldwin', venue: '', type: 'Highlight Film', embed: '', image: '/media/films/mikee-aldwin.jpg', length: '4:17' },
+  { couple: 'Rowena & James', venue: '', type: 'Save the Date', embed: '', image: '/media/films/rowena-james.jpg', length: '1:35' },
 ]
 
 export const approach = [
